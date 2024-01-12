@@ -1,0 +1,28 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-link:hover {
+  background-color: rgb(66, 78, 203);
+  color: black;
+  border-radius: 5px;
+}
+.promo p {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 10px;
+  font-family: fantasy;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}

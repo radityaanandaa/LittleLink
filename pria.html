@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LittleLink</title>
+    <link rel="icon" type="image/x-icon" href="../img/LL.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--ini navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" onclick="goToPage('index.html')">
+          <img src="../img/LL.png" alt="Bootstrap" width="30" height="24" />
+        </a>
+        <a class="navbar-brand" onclick="goToPage('index.html')">LittleLink</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" onclick="goToPage('index.html')">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="goToPage('pria.html')">Pakaian Pria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="goToPage('wanita.html')">Pakaian Wanita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="goToPage('contact.html')">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- shop -->
+    <div class="text-center pt-5 mt-4 pb-5 text-dark">
+      <h1>Produk</h1>
+    </div>
+    <div class="container">
+      <div>
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3 col-6">
+            <img src="../img/kemejaPria.jpg" class="card-img-top" alt="..." />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Kemeja Pria</li>
+              <li class="list-group-item">Harga : Rp.250.000</li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <img src="../img/kemeja2.png" class="card-img-top" alt="..." />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Kemeja Pria</li>
+              <li class="list-group-item">Harga : Rp.200.000</li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <img src="../img/kaos.jpg" class="card-img-top" alt="..." />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Kaos Pria</li>
+              <li class="list-group-item">Harga : Rp.150.000</li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <img src="../img/kaos2.jpg" class="card-img-top" alt="..." />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Kaos Pria</li>
+              <li class="list-group-item">Harga : Rp.150.000</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div>
+      <footer class="text-center text-lg-start bg-dark">
+        <div class="container d-flex justify-content-center py-5">
+          <a href="https://github.com/Radityaananda/" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://instagram.com/rdtyaaanandaa" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b">
+            <i class="bi bi-twitter-x"></i>
+          </button>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2024 Copyright:
+          <a class="text-white" href="">Raditya Ananda</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <script>
+      function goToPage(page) {
+        window.location.href = page;
+      }
+    </script>
+  </body>
+</html>
